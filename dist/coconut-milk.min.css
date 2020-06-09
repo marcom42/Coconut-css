@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=DM+Mono&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap);
+*{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}
+body{color:#011627;background-color:#fdfffc}
+main{flex-grow:1;margin:0;padding:0}
+a{color:#0077b6}
+p{margin-top:1em}
+code,pre{background-color:#caffb0}
+code{padding:0 .5em 0 .5em;border-radius:3px}
+pre{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;width:100%;padding:1em;border-radius:10px;white-space:pre-wrap}
+hr{border:1px solid #caffb0}
+article{max-width:40rem;margin:auto;padding:1.5em}
+body{font-family:"Open Sans",sans-serif;line-height:1.25}
+table{border:0;border-collapse:collapse;margin:0;padding:0;width:100%;table-layout:fixed}
+table caption{text-align:center;font-size:1em;margin:.5em 0 0 0}
+table thead{display:none}
+table tr{display:block;border:1px solid #caffb0;padding:1em 1em .5em}
+table tr+tr{margin-top:.625em}
+table td{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1px solid #caffb0;font-size:.8em;line-height:1.85em}
+table td:before{content:attr(data-label);font-size:.9em;text-align:left;font-weight:700;text-transform:uppercase;max-width:45%;color:#545454}
+table td+td{margin-top:.8em}
+table td:last-child{border-bottom:0}
+caption{background-color:#caffb0}
+footer{background-color:#fdfffc;min-height:50px;padding:2em;margin-top:1.5em;position:relative}
+footer nav{padding:1em;text-align:center}
+footer nav ul li{display:inline-block}
+footer nav ul li a{display:block;padding:.4em .8em;text-decoration:none;line-height:1}
+header{background-color:#fdfffc;position:relative;margin:0;min-height:fit-content;overflow:hidden;padding:1em;text-align:center}
+header nav ul li{display:inline-block}
+header nav ul li a{display:block;padding:.4em .9em;text-decoration:none;line-height:1}
+a{border:3px solid transparent}
+a:hover{border:3px dotted #0077b6}
+figure img{width:100%}
+figure figcaption{font-size:.8em;font-style:italic;border-left:1px solid #011627;padding-left:1em}
+img{width:100%}
+@media (min-width:1025px){
+header h1{float:left}
+header nav{float:right}
+table thead{display:table-header-group}
+table tr{display:table-row;border:0}
+table td,table th{text-align:center}
+table th{font-size:.85em;text-transform:uppercase}
+table td{display:table-cell}
+table td:before{display:none}
+table td:last-child{border-bottom:1px solid #caffb0}
+}
+footer,h1,h2,h3,h4,header{font-family:"Open Sans",sans-serif}
+article,body,h5,h6{font-family:Raleway,serif}
+code,pre{font-family:"DM Mono",monospace}
+caption{font-weight:700;font-style:italic}
+small{font-size:.8em}
+header h1{font-size:2em}
+article{font-size:1.1em}
+body{line-height:2.5em}
+header nav{font-size:1em}
+header nav li a{font-size:1.1em}
+footer nav ul li a{font-size:1em}
+nav a{font-size:1.4em;font-weight:700}
+mark{background-color:#fbb02d}
+b{font-weight:800}
+h1,h2,h3,h4,h5,h6{padding-top:.7em;padding-bottom:.4em}
+header h1{margin:0;padding:0}
+h1{font-size:2em;font-weight:700;font-weight:800}
+h2{font-size:1.7em}
+h3{font-size:1.5em}
+h4{font-size:1.2em;font-style:italic;font-weight:800}
+h5{font-size:1em;font-weight:800;color:#fbb02d}
+h6{font-size:1em;font-style:italic;font-weight:800}
+input[type=email],input[type=password],input[type=text],select,textarea{background-color:#fff;color:#000;padding:1em;border-radius:5px}
+select{height:3em;padding:2em}
+textarea{width:100%}
+input,select,textarea{margin-top:.5em;margin-bottom:.5em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:1px solid #000}
+button,input[type=button],input[type=submit]{background-color:#70c1b3;color:#f7fff7;padding:1em;margin:.5em;border-radius:5px;border:none}
+button:disabled,input[type=button]:disabled{background-color:#c9e8e2;color:#fff}
+button:disabled:hover,input:disabled:hover,textarea:disabled:hover{cursor:not-allowed}
+button:enabled:hover,input[type=button]:enabled:hover{background-color:#b2dbbf;cursor:pointer}
+label{font-size:1em}
+label input[type=checkbox],label input[type=radio]{margin-right:1em}

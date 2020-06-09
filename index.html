@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Coconut CSS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link id="theme" rel="stylesheet" href="dist/coconut.min.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Coconut CSS</h1>
+            <nav>
+                <ul>
+                    <li>
+						<a href="https://github.com/marcom42/Coconut-css">Source</a>
+					</li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+			<h1>A CSS class-less framework</h1>
+            <p>
+				Coconut CSS is a simple class-less CSS framework, mobile-first designed, that looks good and offers a multitude of themes!
+				<br>Change the theme here:
+				<select name="" onchange="ChangeTheme(this.value)">
+					<option value="coconut" selected>Coconut</option>
+					<option value="sakura-blossom">Sakura Blossom</option>
+					<option value="peaceful-forest">Peaceful Forest</option>
+					<option value="coconut-milk">Coconut Milk</option>
+					<option value="midnight">Midnight</option>
+					<option value="blackout">Blackout</option>
+					<option value="terracotta">Terracotta</option>
+				</select>
+				<br>Coconut uses <b>Open Sans</b> as its sans-serif font, <b>Raleway</b> as serif and <b>DM Mono</b> as its monospace font. Here's a demontration of some HTML tags.
+			</p>
+
+			<h1>This is a H1</h1>
+			<h2>This is a H2</h2>
+			<h3>This is a H3</h3>
+			<h4>This is a H4</h4>
+			<h5>This is a H5</h5>
+			<h6>This is a H6</h6>
+
+
+			<p>
+				<mark>I'm marked text</mark>, <b>I'm bold text</b>, <i>I'm italic text</i> and <small>I'm small text.</small>
+				<a href="https://www.google.com">Here's a link.</a>
+			</p>
+
+			<p>
+				<pre><i>/* Here's some code using the &lt;pre&gt; tag: */</i>
+#include &lt;stdio.h&gt;
+int main() {
+   printf("Hello, World!");
+   return 0;
+}</pre>
+			</p>
+			<p>
+				Use the <code>&lt;code&gt;</code> tag to add inline code snippets.
+				<br>Here's another example: <code>printf("Hello, World\n");</code>
+			</p>
+			<h2>Images</h2>
+			<p>Here's an image enclosed by &lt;figure&gt; tags, with a &lt;figcaption&gt;</p>
+			<figure>
+				<img src="https://images.unsplash.com/photo-1575828668319-768718f23925?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2702&q=80" alt="1000px x 500px placeholder image">
+				<figcaption>Photo by Dian Schuurkamp on Unsplash</figcaption>
+			</figure>
+			<p>You can display images by using a simple &lt;img&gt; tag too!</p>
+			<img src="https://images.unsplash.com/photo-1575828668319-768718f23925?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2702&q=80" alt="1000px x 500px placeholder image">
+
+			<h2>Forms & Buttons</h2>
+			<p>
+				<button type="button" name="button">Click me!</button>
+				<button type="button" name="button" disabled>You can't click me!</button>
+			</p>
+			<p>
+				<textarea name="name" rows="8" cols="80" placeholder="You discovered a placeholder!">Here's a &lt;textarea&gt; for you to speak your mind...</textarea>
+				<input type="text" name="" value="Here's a text field" placeholder="I'm a placeholder!">
+				<select>
+					<option value="1">Option 1</option>
+					<option value="2">Option 2</option>
+					<option value="3">Option 3</option>
+					<option value="4">Option 4</option>
+				</select>
+			</p>
+			<p>
+				<h2>Radio & Checkboxes</h2>
+				<label><input type="radio" name="preference" value="Preference 1">Chocholate</label><br>
+				<label><input type="radio" name="preference" value="Preference 2">Vanilla</label><br>
+				<label><input type="checkbox" name="automobile" value="mclaren">Ice Cream</label><br>
+				<label><input type="checkbox" name="automobile" value="mitsubishi">Cake</label>
+			</p>
+			<hr>
+			<p>
+				<ul>
+					<li>I'm a &lt;li&gt;</li>
+					<li>I'm a second &lt;li&gt;</li>
+					<ol>I'm an &lt;ol&gt;</ol>
+					<ol>I'm a second &lt;ol&gt;</ol>
+				</ul>
+			</p>
+			<p>
+				Here's a table. Resize the browser window to see how it behaves.
+				<br>Use the <code>data-label</code> and <code>scope</code> attributes to display table headers in the responsive view.
+				<table>
+				  <caption>Planets</caption>
+				  <thead>
+				    <tr>
+				      <th scope="col">Name</th>
+				      <th scope="col">Symbol</th>
+				      <th scope="col">Mean dist. from Sun</th>
+				      <th scope="col">Sid. Period of revolution</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <td data-label="Name">Mercury</td>
+				      <td data-label="Symbol">☿</td>
+				      <td data-label="Mean dist. from Sun">0.39 AU</td>
+				      <td data-label="Sid. Period of revolution">87.97 days</td>
+				    </tr>
+					<tr>
+				      <td data-label="Name">Venus</td>
+				      <td data-label="Symbol">♀</td>
+				      <td data-label="Mean dist. from Sun">0.72 AU</td>
+				      <td data-label="Sid. Period of revolution">224.70 days</td>
+				    </tr>
+					<tr>
+				      <td data-label="Name">Earth</td>
+				      <td data-label="Symbol">♁</td>
+				      <td data-label="Mean dist. from Sun">1.00 AU</td>
+				      <td data-label="Sid. Period of revolution">365.26 days</td>
+				    </tr>
+					<tr>
+				      <td data-label="Name">Mars</td>
+				      <td data-label="Symbol">♂</td>
+				      <td data-label="Mean dist. from Sun">1.52 AU</td>
+				      <td data-label="Sid. Period of revolution">686.99 days</td>
+				    </tr>
+				  </tbody>
+			  </table>
+			</p>
+        </article>
+        <footer id="footer">
+            <nav>
+                <ul>
+                    <li>
+                        <small>Made by Marco Matta, Copyright © 2020</small>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>
+                        <small>
+                            <a href="https://github.com/marcom42/Coconut-css">Source</a>
+                        </small>
+                    </li>
+                    <li>
+                        <small>
+                            <a href="https://github.com/marcom42">My GitHub</a>
+                        </small>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </main>
+	<script type="text/javascript">
+		function ChangeTheme(value) {
+			document.getElementById("theme").setAttribute('href', "dist/"+value + ".min.css");
+		}
+	</script>
+</body>
+</html>

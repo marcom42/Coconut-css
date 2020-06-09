@@ -1,0 +1,124 @@
+// The MIT License (MIT)
+//
+// Copyright (c) 2020 Marco Matta
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
+// Fonts
+// DM Mono
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+// Raleway
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+// Open Sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+$serif: 'Raleway', serif;
+$sans-serif: 'Open Sans', sans-serif;
+$monospace: 'DM Mono', monospace;
+
+// Colors
+$white: #fff;
+$black: #000;
+
+// THEMING
+// Coconut
+/*
+$site-bg: #F7F9DD;
+$site-fg: #F7F9DD;
+$site-txt: #003049;
+$site-links: #05668d;
+$site-hi-viz: #ffbe0b;
+$link-hover: $site-links;
+$btn-bg: #fcbf49;
+$btn-fg: #2d2a32;
+$btn-hover: #fccb0f;
+*/
+// Sakura Blossom
+/*
+$site-bg: #ffe4ef;
+$site-fg: #FFE4FC;
+$site-txt: #69585f;
+$site-links: #ff6f87;
+$site-hi-viz: #FFE4FC;
+$link-hover: $site-links;
+$btn-bg: #f4cae0;
+$btn-fg: #5e6472;
+$btn-hover: #f2b5d4;
+*/
+
+// Peaceful Forest
+/*
+$site-bg: #081c15;
+$site-fg: #081c15;
+$site-txt: #d9dbbc;
+$site-links: #38a3a5;
+$link-hover: $site-links;
+$site-hi-viz: #affc41;
+$btn-bg: #b7e4c7;
+$btn-fg: $black;
+$btn-hover: #d8f3dc;
+*/
+// Coconut Milk
+/*
+$site-bg: #fdfffc;
+$site-fg: #fdfffc;
+$site-txt: #011627;
+$site-links: #0077b6;
+$site-hi-viz: #fbb02d;
+$link-hover: $site-links;
+$btn-bg: #70c1b3;
+$btn-fg: #f7fff7;
+$btn-hover: #b2dbbf;
+*/
+// Midnight
+/*
+$site-bg: #091219;
+$site-fg: #060c11;
+$site-txt: #faf3dd;
+$site-links: #ffba08;
+$site-hi-viz: #ffff00;
+$link-hover: $site-links;
+$btn-bg: #ffbe0b;
+$btn-fg: $black;
+$btn-hover: #ffd166;
+*/
+// Blackout
+/*
+$site-bg: #000000;
+$site-fg: #000000;
+$site-txt: #fdfffc;
+$site-links: #8d99ae;
+$site-hi-viz: #8d99ae;
+$link-hover: $site-links;
+$btn-bg: #cfdbd5;
+$btn-fg: #242423;
+$btn-hover: #e8eddf;
+*/
+
+// Terracotta
+
+$site-bg: #f3ede5;
+$site-fg: #f78764;
+$site-txt: #32213a;
+$site-links: #931f1d;
+$site-hi-viz: #ff9f1c;
+$link-hover: $site-links;
+$btn-bg: #e76f51;
+$btn-fg: #333533;
+$btn-hover: #e6b89c;

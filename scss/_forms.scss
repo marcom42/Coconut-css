@@ -1,0 +1,75 @@
+// The MIT License (MIT)
+//
+// Copyright (c) 2020 Marco Matta
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
+textarea, input[type="text"], input[type="email"], input[type="password"], select {
+	background-color: $white;
+	color: $black;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+select {
+	height: 3em;
+	padding: 2em;
+}
+
+textarea {
+	width: 100%;
+}
+
+textarea, input, select {
+	margin-top: 0.5em; margin-bottom: 0.5em;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+	border: 1px solid $black;
+}
+
+
+button, input[type="button"], input[type="submit"] {
+	background-color: $btn-bg;
+	color: $btn-fg;
+	padding: 1em; margin: 0.5em;
+	border-radius: 5px;
+	border: none;
+}
+
+button:disabled, input[type="button"]:disabled {
+	background-color: lighten($btn-bg, 25%);
+	color: lighten($btn-fg, 25%);
+}
+
+button:disabled:hover, input:disabled:hover, textarea:disabled:hover {
+	cursor: not-allowed;
+}
+
+button:enabled:hover, input[type="button"]:enabled:hover {
+	background-color: $btn-hover;
+	cursor: pointer;
+}
+
+label {
+	font-size: 1em;
+	input[type="radio"], input[type="checkbox"] {
+		margin-right: 1em;
+	}
+}
